@@ -1,0 +1,98 @@
+.nav{
+    display: flex;
+    justify-content: space-evenly;
+}
+.mid-section{
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+}
+.mid-section{
+    color: #4d4d4d;
+    font-size: 16px;
+}
+.hero-section{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 90px;
+}
+.hero-section> h2{
+    color: #4d4d4d;
+    font-weight: bolder;
+    font-size: 30px;
+}
+.client-section{
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    gap: 16px;
+}
+.client-section-icon{
+    display: flex;
+    justify-content: space-around;
+}
+.mid-client-section{
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+}
+.section{
+    display: flex;
+    justify-content: space-around;
+}
+.client-section2> h2{
+    color: black;
+    font-weight: bolder;
+    font-size: 30px;
+}
+.client-section2 > img{
+    width: 400px;
+}
+.client-section2{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 90px;
+}
+
+.unseen {
+    margin-top: 24px;
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+}
+.unseen-img{
+    margin-top: 10px;
+    margin-left: 120px;
+    justify-content: space-evenly;
+
+}
+
+.unseen-text{
+    padding: 24px;
+    width: 600px;
+}
+
+.unseen .unseen-text > button{
+    color: white;
+    background-color: #4caf4f;
+    border: none;
+    padding: 8px;
+}
+.helper{
+    margin-top: 120px;
+    justify-content: space-evenly
+}
+.right{
+
+}
+.unseen1{
+    margin-top: 10px;
+    margin-left: 300px;
+    justify-content: center;
+}
+.customer-space{
+    margin-top: 20px;
+    margin-left: 300px;
+}
