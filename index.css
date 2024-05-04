@@ -26,7 +26,7 @@
     justify-content: space-between;
     align-items: center;
     text-align: center;
-    gap: 16px;
+    gap: 8px;
 }
 .client-section-icon{
     display: flex;
@@ -36,7 +36,7 @@
     justify-content: space-around;
     align-items: center;
     text-align: center;
-    gap: 30px;
+    gap: 16px;
 }
 .section{
     display: flex;
@@ -55,7 +55,6 @@
     justify-content: space-evenly;
     padding-top: 90px;
 }
-
 .unseen {
     margin-top: 24px;
     display: flex;
@@ -91,8 +90,46 @@
     margin-top: 10px;
     margin-left: 300px;
     justify-content: center;
+    display: flex;
+    gap: 50px;
 }
 .customer-space{
     margin-top: 20px;
+}
+.space{
     margin-left: 300px;
+}
+.space1{
+    margin-right: 120px;
+}
+.Marketing{
+    justify-content: space-evenly;
+}
+.Top-marketing{
+    text-align: center;
+}
+.below-marketing{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+.img{
+    width: 400px;
+}
+.first_{
+    width: 340px;
+    background-color: #F5F7FA;
+    margin: 16px;
+    /*margin-left: 10px;*/
+    /*margin-top: -60px;*/
+    /*z-index: 10;*/
+    padding: 16px;
+    align-items: center;
+    justify-content: center;
+}
+.first_img{
+    position: relative;
+}
+.end{
+color: #4caf4f;
 }
