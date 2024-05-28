@@ -1,10 +1,11 @@
 .nav{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    padding: 0 15px;
 }
 .mid-section{
     display: flex;
-    gap: 15px;
+    gap: 45px;
     justify-content: center;
     align-items: center;
 }
@@ -22,25 +23,27 @@
     font-weight: bolder;
     font-size: 30px;
 }
+
 .client-section{
-    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
     align-items: center;
-    text-align: center;
-    gap: 8px;
 }
 .client-section-icon{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    width: 100%;
 }
 .mid-client-section{
-    justify-content: space-around;
     align-items: center;
     text-align: center;
-    gap: 16px;
+    width: 100%;
 }
 .section{
     display: flex;
-    justify-content: space-around;
+    gap: 240px;
+    justify-content: center;
+    align-items: center;
 }
 .client-section2> h2{
     color: black;
@@ -132,4 +135,47 @@
 }
 .end{
 color: #4caf4f;
+}
+
+.footer-sider{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-evenly;
+}
+.footer-sider > p{
+    display: block;
+}
+input::placeholder{
+    color: white;
+}
+.input{
+    width: 100%;
+    padding: 10px 15px;
+    border-radius: 3px;
+    border: none;
+    background: #515b60;
+}
+
+.footer{
+    background: #263238;
+    padding: 4% 0;
+    display: flex;
+    color: white;
+    justify-content: space-around;
+    gap: 20%;
+}
+@media only screen and(max-width: 728px){
+    .nav{
+        display: none;
+    }
+    .hero-section{
+       display: none;
+    }
+    .mid-section{
+        flex-direction: column;
+    }
+    .input{
+        width: 70%;
+    }
+
 }

@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.mainContainer{
+    /*padding-top: 30px;*/
+    width: 40vw;
+    margin: auto;
+    border: 1px solid black;
+}
+.inputContainer{
+    padding: 5px 20px;
+}
+.inputContainer input{
+    width: 99%;
+    margin: auto;
+}
+.submit{
+    /*display: grid;*/
+    width: 100px;
+    background: rgb(68, 68, 239);
+    color: white;
+    border: none;
+    height: 26px;
+    border-radius: 3px;
+}
+.submit:hover{
+    background-color: rgb(0, 102, 256);
+}
